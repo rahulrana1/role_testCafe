@@ -1,4 +1,5 @@
 import { Selector, t, Role } from 'testcafe'
+const appUrl = 'https://yourWebsiteURL.com/signin'
 
 export const roleAdmin = Role(appUrl, async t => {
     await login('admin@admin.com', 'Admin@12345')
