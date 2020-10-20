@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test:chrome": "npx testcafe chrome tests/sample.test.js"
+        "test:chrome": "npx testcafe chrome tests/herokuApp.test.js"
     },
     "author": "Rahul",
     "license": "ISC",
