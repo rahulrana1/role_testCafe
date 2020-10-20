@@ -1,0 +1,14 @@
+{
+    "name": "roles_testcafe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test:chrome": "npx testcafe chrome tests/nexthub/excelImport.spec.js"
+    },
+    "author": "Rahul",
+    "license": "ISC",
+    "dependencies": {
+        "testcafe": "^1.8.8"
+    }
+}
